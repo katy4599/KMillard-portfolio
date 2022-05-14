@@ -43,7 +43,7 @@ body {
 .pic-square {
     width: 200px;
     height: 200px;
-    background-image: url("/Headshot.png");
+    background-image: url("./Headshot.png");
     background-size: 200px, 200px;
     background-position: bottom;
     background-color: #354F52;
@@ -108,7 +108,7 @@ body {
 
 .memorial-pic::before {
     content: "";
-    background-image: url("/WWIMM\ pic\ \(2\).jpg");
+    background-image: url("./WWIMM\ pic\ \(2\).jpg");
     position: absolute;
     background-size: cover;
     top: 0;
