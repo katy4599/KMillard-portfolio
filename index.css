@@ -43,7 +43,7 @@ body {
 .pic-square {
     width: 200px;
     height: 200px;
-    background-image: url("assets/Headshot.png");
+    background-image: url("/Headshot.png");
     background-size: 200px, 200px;
     background-position: bottom;
     background-color: #354F52;
@@ -108,7 +108,7 @@ body {
 
 .memorial-pic::before {
     content: "";
-    background-image: url("assets/WWIMM\ pic\ \(2\).jpg");
+    background-image: url("/WWIMM\ pic\ \(2\).jpg");
     position: absolute;
     background-size: cover;
     top: 0;
@@ -245,7 +245,7 @@ body {
     width: 850;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0px;
+    margin-top: 15px;
     text-align: center;
     font-family: "Roboto", "Source Sans Pro", "Arial", sans-serif;
 
@@ -253,7 +253,7 @@ body {
 
 .projects::before {
     content: "";
-    background-image: url("assets/code.jpg");
+    background-image: url("/code.jpg");
     
     position: absolute;
     background-size: cover;
@@ -272,6 +272,7 @@ body {
     text-decoration: underline;
     color: yellow;
     position: relative;
+    margin-top: 15px;
 }
 
 .projects p {
