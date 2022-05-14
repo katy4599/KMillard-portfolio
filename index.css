@@ -253,7 +253,7 @@ body {
 
 .projects::before {
     content: "";
-    background-image: url("/code.jpg");
+    background-image: url("./code.jpg");
     
     position: absolute;
     background-size: cover;
